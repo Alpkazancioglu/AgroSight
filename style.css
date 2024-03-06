@@ -183,3 +183,100 @@ body{
     text-align: center;
     
 }
+
+.ContactUs{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.ContactBox{
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+    height: 80%;
+    border: 8px solid #798777;
+    border-radius: 5%;
+    margin-left: 15%;
+    background-color: #A2B29F;
+    
+    align-self: center;
+    
+}
+.ContactBox form{
+   
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 65%;
+    align-self: center;
+    
+
+}
+
+.ContactBox input{
+    width: 95%;
+    height: 15%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: none;
+
+    
+}
+
+.ContactBox p{
+    width: 80%;
+    align-self: center;
+    padding-left: 10%;
+    margin-top: 0;
+    margin-bottom: 8%;    
+}
+
+
+.ContactBox h1{
+    align-self: center;
+    margin-bottom: 10px;
+
+    
+    
+    font-family: "Madimi One", sans-serif;
+}
+
+#info{
+    width: 95%;
+    height: 30%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border: none;
+}
+
+#submit{
+    
+    width: 30%;
+    height: 20%;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: #F8EDE3;
+    border: 3px solid #BDD2B6;
+    border-radius: 8%;
+    text-align: center;
+    
+
+
+        
+}
+
+.ContactUs img{
+    
+    align-self: end;
+    margin-left: auto;
+    height: 100%;
+    width: 40%;
+
+    
+
+}
