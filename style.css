@@ -1,7 +1,49 @@
-header{
+header .Headercontainer{
+    display: flex;
     background-color: #F8EDE3;
+    position: fixed;
     width: 100%;
     height: 10vh;
+    justify-content: space-between;
+    z-index: 100;
+   
+    
+}
+
+header .icons{
+    font-size: 3em;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+header .navigation{
+    display: flex;
+
+}
+
+header .iconDiv{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    
+    margin-right: 5px;
+    order: 1;
+}
+
+header h1{
+    align-self: center;
+    justify-content: start;
+    margin-left: 10px;
+    font-family: "Madimi One", sans-serif;
+}
+
+header h3{
+    align-self: center;
+    padding: 20px;
+    
     
 }
 
@@ -15,7 +57,7 @@ body{
     
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 50vh;
     margin-bottom: 100px;
 
    
@@ -30,12 +72,15 @@ body{
     opacity: 0.8;
 }
 
+
+
 .centeredText {
     position: absolute;
     font-size: 4em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
   }
     
 .about{
