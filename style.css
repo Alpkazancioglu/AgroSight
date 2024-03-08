@@ -12,6 +12,7 @@ header .Headercontainer{
 
 body{
     min-width: 960px;
+    
     margin: 0 auto;
     height: auto;
 }
@@ -66,7 +67,9 @@ body{
     height: 50vh;
     margin-bottom: 100px;
     
-   
+}
+
+.Headercontainer img{
     
 }
 
@@ -78,7 +81,10 @@ body{
     opacity: 0.8;
 }
 
-
+.UltimateDiv{
+    display: flex;
+    flex-direction: column;
+}
 
 .centeredText {
     position: absolute;
@@ -206,12 +212,14 @@ body{
 .ContactBox{
     display: flex;
     flex-direction: column;
-    width: 35vh;
-    height: 80%;
+    min-width: 20%;
+    max-width: 30%;
+    
     border: 8px solid #798777;
     border-radius: 5%;
     margin-left: 15%;
     background-color: #A2B29F;
+    margin-top: 20px;
     
     align-self: center;
     
@@ -285,8 +293,8 @@ body{
     
     align-self: end;
     margin-left: auto;
-    height: 100%;
-    width: 40%;
+    height: 80%;
+    width: 30%;
 
     
 
