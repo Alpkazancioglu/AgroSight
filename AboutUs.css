@@ -1,0 +1,116 @@
+body{
+    background-color: #F8EDE3;
+    margin: 0;
+    padding: 0;
+}
+
+
+header .Headercontainer{
+    display: flex;
+    background-color: #F8EDE3;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    z-index: 100;    
+}
+
+header .icons{
+    font-size: 3em;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+header img{
+    height: 100%;
+}
+
+header .navigation{
+    display: flex
+
+}
+
+header .iconDiv{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    margin-right: 5px;
+    order: 1;
+}
+
+header h1{
+    align-self: center;
+    justify-content: start;
+    margin-left: 10px;
+    font-family: "Madimi One", sans-serif;
+}
+
+header a{
+    
+    text-decoration: none;
+    color: #000;
+}
+
+header h3{
+    align-self: center;
+    padding: 20px;
+    
+    
+}
+
+
+.GeneralDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    
+}
+
+
+.firstDiv{
+    display: flex;
+    margin-bottom: 20px;
+    width: 80%;
+    
+}
+
+#FirstDivP{
+    width: 50%;
+    margin-left: 10%;
+
+}
+
+
+.firstDiv img{
+    max-width: 40%;
+
+}
+
+
+
+.secondDiv{
+    display: flex;
+    width: 80%;
+    flex-direction: row-reverse;
+}
+
+#SecondDivP{
+    width: 50%;
+    margin-right: 10%;
+    
+    
+}
+
+.secondDiv img{
+    
+    width: 40%;
+    max-height: 40vh;
+    
+}

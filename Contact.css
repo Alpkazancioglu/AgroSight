@@ -1,0 +1,130 @@
+body{
+    background-color: #F8EDE3;
+    margin: 0;
+    padding: 0;
+}
+
+
+header .Headercontainer{
+    display: flex;
+    background-color: #F8EDE3;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    z-index: 100;    
+}
+
+header .icons{
+    font-size: 3em;
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+
+header img{
+    height: 100%;
+}
+
+header .navigation{
+    display: flex
+
+}
+
+header .iconDiv{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    margin-right: 5px;
+    order: 1;
+}
+
+header h1{
+    align-self: center;
+    justify-content: start;
+    margin-left: 10px;
+    font-family: "Madimi One", sans-serif;
+}
+
+header a{
+    
+    text-decoration: none;
+    color: #000;
+}
+
+header h3{
+    align-self: center;
+    padding: 20px;
+    
+    
+}
+
+
+
+.ContactUs{
+
+    display: flex;
+    padding-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+#Social{
+    display: flex;
+    min-width: 100vh;
+    max-width: 150vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Social .icons{
+    font-size: 3em;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+    
+#adress{
+
+    display: flex;
+    min-width: 100vh;
+    max-width: 150vh;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#adress div{
+
+    width: 30%;
+    
+    padding: 10px;
+    display: flex;    
+}
+
+#adress div > *{
+    padding: 10px;
+    
+}
+
+#adress .iletisim{
+    width: 30%;
+    height: auto;
+    padding: 0px;
+    
+}
+
+#adress .iletisim div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 20%;
+
+}

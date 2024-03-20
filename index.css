@@ -6,13 +6,11 @@ header .Headercontainer{
     height: 10vh;
     justify-content: space-between;
     z-index: 100;
-   
-    
+
 }
 
 body{
     min-width: 960px;
-    
     margin: 0 auto;
     height: auto;
 }
@@ -47,6 +45,12 @@ header h1{
     font-family: "Madimi One", sans-serif;
 }
 
+header a{
+    
+    text-decoration: none;
+    color: #000;
+}
+
 header h3{
     align-self: center;
     padding: 20px;
@@ -69,9 +73,6 @@ body{
     
 }
 
-.Headercontainer img{
-    
-}
 
 .headDiv img{
 
@@ -81,10 +82,6 @@ body{
     opacity: 0.8;
 }
 
-.UltimateDiv{
-    display: flex;
-    flex-direction: column;
-}
 
 .centeredText {
     position: absolute;
@@ -92,9 +89,13 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: Madimi One, sans-serif; 
+    color: rgb(57, 88, 57);
     
   }
     
+
+
 .about{
     display: flex;
     width: 100%;
@@ -103,17 +104,18 @@ body{
 
 }
 .about img{
-    max-width: 40%;
+    max-width: 60%;
     max-height: 100%;
+    min-width: 40%
     
 }
 
 .about div{
-    min-width: 35%;
-    max-width: 35%;
+    min-width: 40%;
+    max-width: 40%;
     max-height: 85%;
     overflow: scroll;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 2%;
     
 }
@@ -150,6 +152,8 @@ body{
     align-items: center;
     width: 100%;
     padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
 
     
 }
