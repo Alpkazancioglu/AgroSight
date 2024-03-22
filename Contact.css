@@ -1,130 +1,156 @@
-body{
-    background-color: #F8EDE3;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: #f8ede3;
+  margin: 0;
+  padding: 0;
 }
 
-
-header .Headercontainer{
-    display: flex;
-    background-color: #F8EDE3;
-    position: fixed;
-    width: 100%;
-    height: 10vh;
-    justify-content: space-between;
-    z-index: 100;    
+header .Headercontainer {
+  display: flex;
+  background-color: #f8ede3;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between;
+  z-index: 100;
 }
 
-header .icons{
-    font-size: 3em;
-    padding: 5px;
-    text-decoration: none;
-    color: #000000;
-    
+header .icons {
+  font-size: 3em;
+  padding: 5px;
+  text-decoration: none;
+  color: #000;
 }
 
-
-header img{
-    height: 100%;
+header img {
+  height: 100%;
 }
 
-header .navigation{
-    display: flex
-
+header .navigation {
+  display: flex;
 }
 
-header .iconDiv{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    align-items: center;
-    margin-right: 5px;
-    order: 1;
+header .iconDiv {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  margin-right: 5px;
+  order: 1;
 }
 
-header h1{
-    align-self: center;
-    justify-content: start;
-    margin-left: 10px;
-    font-family: "Madimi One", sans-serif;
+header h1 {
+  align-self: center;
+  justify-content: start;
+  margin-left: 10px;
+  font-family: "Madimi One", sans-serif;
 }
 
-header a{
-    
-    text-decoration: none;
-    color: #000;
+header a {
+  text-decoration: none;
+  color: #000;
 }
 
-header h3{
-    align-self: center;
-    padding: 20px;
-    
-    
+header h3 {
+  align-self: center;
+  padding: 20px;
+  font-family: "Madimi One", sans-serif;
 }
 
-
-
-.ContactUs{
-
-    display: flex;
-    padding-top: 10vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-
+.Container {
+  width: 80%;
+  padding-top: 10%;
+  margin: 50px auto;
+  margin-top: 0;
 }
 
-#Social{
-    display: flex;
-    min-width: 100vh;
-    max-width: 150vh;
-    align-items: center;
-    justify-content: space-around;
+.ContactBox {
+  display: flex;
+  background-color: #fff;
 }
 
-#Social .icons{
-    font-size: 3em;
-    padding: 5px;
-    text-decoration: none;
-    color: black;
-}
-    
-#adress{
-
-    display: flex;
-    min-width: 100vh;
-    max-width: 150vh;
-    align-items: center;
-    justify-content: space-evenly;
-
+.contactLeft {
+  flex-basis: 60%;
+  background-color: #798777;
+  padding: 40px 60px;
 }
 
-#adress div{
-
-    width: 30%;
-    
-    padding: 10px;
-    display: flex;    
+.contactRight {
+  flex-basis: 40%;
+  background-color: #bdd2b6;
+  padding: 40px 60px;
 }
 
-#adress div > *{
-    padding: 10px;
-    
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-#adress .iletisim{
-    width: 30%;
-    height: auto;
-    padding: 0px;
-    
+.inputRow .inputGroup {
+  flex-basis: 45%;
 }
 
-#adress .iletisim div{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-    width: 20%;
+input {
+  width: 100%;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  background-color: #798777;
+  color: white;
+  border-bottom: 2px solid #f8ede3;
+}
 
+::placeholder {
+  color: #b5b5b5;
+}
+
+h3 {
+  padding: 0;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.contactLeft h3 {
+  font-family: "Madimi One", sans-serif;
+}
+
+.contactRight h3 {
+  font-family: "Madimi One", sans-serif;
+}
+
+.submitRow {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  max-width: 10vh;
+
+  align-self: center;
+  padding: 0;
+  color: black;
+  background-color: #f8ede3;
+  border: 3px solid #bdd2b6;
+  border-radius: 8%;
+  text-align: center;
+}
+
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+#info {
+  padding-top: 5px;
+  background-color: #798777;
+  border: none;
+  border-bottom: 2px solid #f8ede3;
+  color: white;
+}
+
+tr {
+  font-size: 1.3em;
 }

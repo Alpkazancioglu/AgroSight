@@ -58,7 +58,7 @@ header a{
 header h3{
     align-self: center;
     padding: 20px;
-    
+    font-family: "Madimi One", sans-serif;
     
 }
 
@@ -113,4 +113,8 @@ header h3{
     width: 40%;
     max-height: 40vh;
     
+}
+
+p{
+    font-size: 1.2em;
 }

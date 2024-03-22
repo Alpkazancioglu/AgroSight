@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <header>
         <div class="Headercontainer">
             <a href="index.html"><img src="images/agrosight_log2.png"></a>
@@ -24,60 +24,93 @@
                 </a>
             </div>
             <div class="navigation">
-                <h3><a href="AboutUs.html">hakkimizda</a></h3></a>
-                <h3>projelerimiz</h3>
-                <h3>servislerimiz</h3>
-                <h3><a href="Contact.html">İletisim</a></h3>
+                <h3><a href="AboutUs.html">HAKKIMIZDA</a></h3></a>
+                <h3>PROJELERİMİZ</h3>
+                <h3>SERVİSLERİMİZ</h3>
+                <h3><a href="Contact2.html">İLETİŞİM</a></h3>
             </div>
             
                  
         </div>
-    </header>
-    
-    <div class="ContactUs">
-        
-        
-        <div id="Social">
-            <p style="font-size: 4em;">bize ulasin</p>
-            <p style="width: 30%;">Detayli bilgi icin sosyal medyadan takip etmeyi unutmayiniz</p>
-            <div class="iconDiv2">
-                <a href="https://www.instagram.com/esintihavacilik/?img_index=1" target="_blank">
-                    <i class="fa-brands fa-instagram icons"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/esinti-havacilik/?viewAsMember=true" target="_blank">
-                    <i class="fa-brands fa-linkedin icons"></i>
-                </a>
-            </div>
-        </div>
-        
-        <div id="adress">
-            <div class="merkez">
-                <h4>Merkez</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus alias reiciendis omnis, quod nisi quaerat esse maxime! Aut natus ipsum, quia illum esse vero, sint nostrum adipisci sed corrupti cumque.</p>
-            </div>
-            
-            <div class="sube">
-                <h4>Sube</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum inventore, quaerat ullam ut odio ad obcaecati dignissimos, minus quae neque, explicabo vero! Suscipit accusamus ullam nisi debitis ex? Obcaecati, minus.</p>
-            </div>
-            
-            <div class="iletisim">
-                
-                <div id="tel">
-                    <h4>tel : </h4>
-                    <h4>gmail</h4>
-                </div>
-                <div id="gmail">
-                    <p>123456789</p>
-                    <p>test@gmail.com</p>
-                </div>
-                    
-                
-                
-            </div>
-        </div>
+    </header>    
 
 
+    <div class="Container">
+        <h1>İletişim</h1>
+        
+        <div class="ContactBox">
+            <div class="contactLeft">
+                
+                <h3>bize mesaj gonderin</h3>
+                <form action="">
+                
+                    <div class="inputRow">
+                        <div class="inputGroup">
+                            <label for="">Isim</label>
+                            <input type="text" id="Personalname" required placeholder="Alp kazancioglu">
+                        </div>
+                        <div class="inputGroup">
+                            <label for="">Sirket ismi</label>
+                            <input type="text" id="CompanyName"  placeholder="Esinti">
+                        </div>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputGroup">
+                            <label for=""> mail adresiniz</label>
+                            <input type="email" id="email" required placeholder="test@gmail.com">
+                        </div>
+                        <div class="inputGroup">
+                            <label for=""> telefon numaraniz</label>
+                            <input type="phone" id="PhoneNumber" required placeholder="553-1234567">
+                        </div>
+                    </div>
+                    <div class="inputRow">
+                        <div class="InfoContainer" >
+                            <label for="">İletişim</label>
+                            <textarea id="info"  placeholder="iletisim sebebiniz" style="resize: none;"></textarea>
+                        </div>
+                        
+                    </div>
+                    <div class="submitRow">
+                        <input type="submit" id="submit">
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="contactRight">
+                <h3>Bize Ulasin</h3>
+                <table>
+                    <tr>
+                        <td>
+                            telefon:
+                        </td>
+                        <td>
+                            05531234567
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            mail:
+                        </td>
+                        <td>
+                            test@gmail.com
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;">
+                            adresimiz:
+                        </td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec arcu tortor. Vivamus lectus massa
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
     </div>
 
 

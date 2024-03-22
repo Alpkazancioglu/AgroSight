@@ -54,7 +54,7 @@ header a{
 header h3{
     align-self: center;
     padding: 20px;
-    
+    font-family: "Madimi One", sans-serif;
     
 }
 
@@ -138,10 +138,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    
-    
-    
-    
+       
 }
 
 .whatWeOffer .header{
@@ -174,7 +171,7 @@ body{
     width: 100%;
     height: auto;
     background-color: #A2B29F;
-    align-items: center;
+    
 }
 
 
@@ -186,6 +183,7 @@ body{
     min-height: 60vh;
     background-color: #A2B29F;
     align-items: center;
+    
 }
 .whatWeOffer .itemContainer .item img{
     max-width: 40%;
@@ -200,7 +198,7 @@ body{
     
     min-width: 30%;
     max-width: 50%;
-    height: 100%;
+    
     text-align: center;
     
 }
@@ -287,10 +285,7 @@ body{
     border: 3px solid #BDD2B6;
     border-radius: 8%;
     text-align: center;
-    
-
-
-        
+            
 }
 
 .ContactUs img{
